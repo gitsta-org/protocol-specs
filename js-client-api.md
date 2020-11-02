@@ -1,3 +1,4 @@
+```ts
 import Datastore = require("nedb");
 import { getServers } from "dns";
 
@@ -65,3 +66,4 @@ async function processAddTodoEvent(filename: string, contents: string) {
 async function processAddProjectEvent(filename: string, contents: string) {
   // gitsta.
 }
+```
